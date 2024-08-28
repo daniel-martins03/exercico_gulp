@@ -5,16 +5,12 @@ const uglify = require('gulp-uglify');
 
 const paths = {
     styles: {
-        src: 'styles/main.scss',
+        src: 'source/styles/main.scss',
         dest: 'dist/css/'
     },
     images: {
-        src: 'source/img/bird-ga5d9ed257_1920.jpg',
-        dest: 'dist/images/',
-
-        src: 'source/img/bird-g6b63afc7a_1920.jpg',
+        src: 'source/img/.jpg',
         dest: 'dist/images/'
-
     },
     scripts: {
         src: 'source/script.js',
